@@ -1,0 +1,43 @@
+Para crear cliente
+{
+    "nombre": "Juan",
+    "apellido": "Pérez",
+    "fecha_de_nacimiento": "1990-01-01",
+    "dni": "12345678"
+}
+Para crear producto
+{
+    "codigo": "P123",
+    "nombre": "Producto Ejemplo",
+    "precio": 100.50,
+    "cantidad": 10
+}
+Para crear pedido
+{
+    "fecha": "2024-06-27",
+    "id_cliente": 5,
+    "id_producto": 2
+}
+
+Para crear un titular
+{
+    "nombre": "Juan",
+    "apellido": "Pérez",
+    "telefono": "1234567890"
+}
+
+Para crear una mascota
+{
+    "nombre": "Firulais",
+    "especie": "Perro",
+    "raza": "Labrador",
+    "id_titular": 1
+}
+
+Para crear un turno
+{
+    "fecha": "2023-07-01",
+    "hora": "10:00:00",
+    "id_mascota": 1,
+    "id_titular": 1
+}

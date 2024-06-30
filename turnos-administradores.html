@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Huellitas </title>
+    <link rel="icon" type="image/png" href="/img/logo.png">
+    <script src="https://kit.fontawesome.com/c453cdbf08.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style-administradores.css">
+</head>
+<body>
+    <div class="container">
+        <!-- logo y menú -->
+        <header class="cabecera">
+            <div class="cabecera__logo">
+                <a><img src="./img/logo.png" alt="logo"></a>
+            </div>
+            <nav class="cabecera__menu">
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+                <ul class="cabecera__menu-items flex-horiz-wrap">
+                    <li class="cabecera__menu-item"><a href="./index.html"><span class="subrayado izq-a-der">INICIO</span></a></li>
+                    <li class="cabecera__menu-item"><a href="./nosotros.html"><span class="subrayado izq-a-der">NOSOTROS</span></a></li>
+                    <li class="cabecera__menu-item"><a href="./servicios.html"><span class="subrayado izq-a-der">SERVICIOS</span></a></li>
+                    <li class="cabecera__menu-item"><a href="./tienda.html"><span class="subrayado izq-a-der">TIENDA</span></a></li>
+                    <li class="cabecera__menu-item item-con-sub">
+                        <a>
+                            <span class="subrayado izq-a-der">TURNOS</span>
+                            <i class="fa-solid fa-circle-chevron-down"></i>
+                            <ul class="cabecera__menu-subitems">
+                                <li class="cabecera__menu-subitem"><a href="./turnos-clientes.html">CLIENTES</a></li>
+                                <li class="cabecera__menu-subitem"><a href="./turnos-administradores.html">ADMINISTRADORES</a></li>
+                            </ul>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main>
+            <!-- colocar el contenido que sea necesario, los sections son a modo de ejemplo -->
+            <div class="main-container">
+                <input type="checkbox" id="flip"/>
+                <div class="solapa">
+                    <div class="frente">
+                        <img src="./img/veterinaria.jpg" alt="profesional-veterinaria"/>
+                        <div class="text">
+                            <span class="text-1">En cada comienzo nos<br/>
+                                espera algo por descubrir</span>
+                            <span class="text-2">Comencemos!</span>
+                        </div>
+                    </div>
+                    
+                    <div class="detras">
+                        <img class="imgDetras" src="img/veterinario1.jpg" alt="profesional-veterinario"/>
+                        <div class="text">
+                            <span class="text-1">Cada nueva experiencia<br/>
+                                es una nueva aventura.</span>
+                            <span class="text-2">Conectémonos!</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="formularios">
+                    <div class="formulario-contenido">
+                        <div class="formulario-ingreso">
+                            <div class="titulo">Ingresar</div>
+                            <form action="#">
+                                <div class="inputs-contenedor">
+                                    <div class="input-grupo">
+                                        <i class="fa-solid fa-envelope"></i>
+                                        <input type="text" placeholder="Ingresá tu email" required/>
+                                    </div>
+                                    <div class="input-grupo">
+                                        <i class="fa-solid fa-lock"></i>
+                                        <input type="password" placeholder="Ingresá tu contraseña" required/>
+                                    </div>
+                                    <div class="text">
+                                        <a href="#">¿Olvidaste tu contraseña?</a>
+                                    </div>
+                                    <div class="btn input-grupo">
+                                        <input type="submit" value="Enviar"/>
+                                    </div>
+                                    <div class="text registro-text">
+                                        ¿No tenés una cuenta?
+                                        <label for="flip">Registrate</label>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+        
+                        <div class="formulario-registro">
+                            <div class="titulo">Registrarse</div>
+                            <form action="#">
+                                <div class="inputs-contenedor">
+                                    <div class="input-grupo">
+                                        <i class="fa-solid fa-user"></i>
+                                        <input type="text" placeholder="Ingresá tu nombre" required/>
+                                    </div>
+                                    <div class="input-grupo">
+                                        <i class="fa-solid fa-envelope"></i>
+                                        <input type="text" placeholder="Ingresá tu email" required/>
+                                    </div>
+                                    <div class="input-grupo">
+                                        <i class="fa-solid fa-lock"></i>
+                                        <input type="password" placeholder="Ingresá tu contraseña" required/>
+                                    </div>
+                                    <div class="btn input-grupo">
+                                        <input type="submit" value="Enviar"/>
+                                    </div>
+                                    <div class="text registro-text">
+                                        ¿Ya tenés una cuenta?
+                                        <label for="flip">Ingresá</label>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Pie -->
+        <footer class="pie">
+            <!-- <hr> -->
+            <div class="pie__redes">
+                <ul class="pie__redes-iconos">
+                    <!-- íconos redes --> 
+                   <li class="pie__redes-icono"><a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                   <li class="pie__redes-icono"><a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                   <li class="pie__redes-icono"><a href="#" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+                   <li class="pie__redes-icono"><a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                   <li class="pie__redes-icono"><a href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
+               </ul>
+            </div>
+           <div class="pie__derechos">
+               <img src="./img/logo.png" alt="logo">
+               <p class="pie__derechos-der-autor">TODOS LOS DERECHOS RESERVADOS © 2024 HUELLITAS CLÍNICA VETERINARIA</p>
+               <div class="pie__derechos-legal">
+                   <span>INFORMACIÓN LEGAL</span><span>POLÍTICA DE PRIVACIDAD</span>
+               </div>
+               <p class="pie__derechos-diseno">Diseñado por <a href="#">Grupo5CaC2024</a></p>
+           </div>
+        </footer>
+        <!-- Fin Pie -->
+    </div>
+
+    <!-- Botones de Wast app y para subir al inicio -->
+    <div class="btn_final">
+        <!-- Botón de Wats App -->
+        <a href="./turnos-clientes.html" id="btn-watsapp" class="btn_final_pagina boton__watsApp"><i class="fa-brands fa-whatsapp"></i></a>
+        <!-- Botón UP de ir hacia arriba, al inicio -->
+        <a href="#" id="btn-up" class="btn_final_pagina boton__up"><i class="fa-solid fa-angle-up"></i></a>
+    </div>
+
+    <!-- Archivos Js -->
+    <script src="./js/Scroll-botones.js"></script>
+</body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Huellitas</title>
+    <link rel="icon" type="image/png" href="/img/logo.png">
+    <script src="https://kit.fontawesome.com/c453cdbf08.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style-servicios.css">
+    <script src="./js/popup.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <!-- logo y menú -->
+        <header class="cabecera">
+            <div class="cabecera__logo">
+                <a><img src="./img/logo.png" alt="logo"></a>
+            </div>
+            <nav class="cabecera__menu">
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+                <ul class="cabecera__menu-items flex-horiz-wrap">
+                    <li class="cabecera__menu-item"><a href="./index.html"><span class="subrayado izq-a-der">INICIO</span></a></li>
+                    <li class="cabecera__menu-item"><a href="./nosotros.html"><span class="subrayado izq-a-der">NOSOTROS</span></a></li>
+                    <li class="cabecera__menu-item"><a href="./servicios.html"><span class="subrayado izq-a-der">SERVICIOS</span></a></li>
+                    <li class="cabecera__menu-item"><a href="./tienda.html"><span class="subrayado izq-a-der">TIENDA</span></a></li>
+                    <li class="cabecera__menu-item item-con-sub">
+                        <a>
+                            <span class="subrayado izq-a-der">TURNOS</span>
+                            <i class="fa-solid fa-circle-chevron-down"></i>
+                            <ul class="cabecera__menu-subitems">
+                                <li class="cabecera__menu-subitem"><a href="./turnos-clientes.html">CLIENTES</a></li>
+                                <li class="cabecera__menu-subitem"><a href="./turnos-administradores.html">ADMINISTRADORES</a></li>
+                            </ul>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main class="colormain">
+            <h1 class="h123 ">Servicios</h1>
+            <div class="services">
+                <ul class="service-list">
+                    <h2>SERVICIO TRADICIONAL</h2>
+                    <li class="popup" data-image="https://clinicaveterinariadrbernal.com/wp-content/uploads/2022/12/dog-at-examination-in-vet-clinic-1024x682.jpg">Cuidado preventivo</li>
+                    <li class="popup" data-image="https://image.lexica.art/full_webp/4dad6b37-51d2-4073-ae69-229c1205a264">Vacunas</li>
+                    <li class="popup" data-image="https://hospitalveterinariodonostia.com/wp-content/uploads/2018/12/productos-higiene-dental-perros_3-1.jpg">Cuidado dental</li>
+                    <li class="popup" data-image="https://d34xtejqjqcp3x.cloudfront.net/store/856e969a5983a97bdd875f61112c2ed2.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAICTJHRPRHFBTAWCA%2F20240503%2Fsa-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240503T001333Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=3e4903d38cbbb7ad90150912ee734d8bd52f946212c1348f7e700423afbc6fdb">Esterilización y Castración</li>
+                    <li class="popup" data-image="https://axoncomunicacion.net/wp-content/uploads/2023/01/veterinary-clinic-surgery-dog-s-leg-dr-soldering-iron-cauterizes-wound-leg-scaled.jpg">Cirugía (incluida la ortopedia)</li>
+                    <li class="popup" data-image="https://www.webconsultas.com/sites/default/files/styles/wch_image_schema/public/articulos/alergia_mascotas_tratamiento_gatos.jpg">Manejo de Alergias</li>
+                    <li class="popup" data-image="https://cdn.nubika.es/wp-content/uploads/2024/03/14082002/higiene-animales.jpg">Aseo</li>
+                    <li class="popup" data-image="https://image.lexica.art/full_webp/a43353c1-8ea8-4732-89a0-da53a730c2cf">Visitas a Domicilio</li>
+                </ul>
+                <ul class="service-list">
+                    <h2>SERVICIOS INTEGRATIVOS</h2>
+                    <li class="popup" data-image="https://quirovida.com.co/wp-content/uploads/2021/12/pexels-mikhail-nilov-7469229.jpg">Tratamientos Quiroprácticos</li>
+                    <li class="popup" data-image="https://www.hospitalveterinariouax.com/var/site/storage/images/4/9/9/1/71994-8-esl-ES/hero-especialidad-acupuntura.jpg">Acupuntura</li>
+                    <li class="popup" data-image="https://blog.vet2go.es/wp-content/uploads/2022/03/Terapia-laser-perros-y-gatos-Vet2Go-veterinario-a-domicilio.png">Terapia con Láser</li>
+                    <li class="popup" data-image="https://c6da4788cd.clvaw-cdnwnd.com/ae89e4acdd1d64243652d4a68792d514/200000361-497b1497b4/Lyng.jpeg?ph=c6da4788cd">Medicina Herbaria</li>
+                </ul>
+            </div>
+
+            
+        </main>
+        <div class="popup-overlay">
+            <div class="popup-content">
+                <img class="popup-image" src="" alt="Popup Image">
+                <span class="close-btn">&times;</span>
+            </div>
+        </div>
+    
+        <script src="scripts.js"></script>
+        <!-- Pie -->
+        <footer class="pie">
+            <!-- <hr> -->
+            <div class="pie__redes">
+                <ul class="pie__redes-iconos">
+                    <!-- íconos redes --> 
+                   <li class="pie__redes-icono"><a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                   <li class="pie__redes-icono"><a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                   <li class="pie__redes-icono"><a href="#" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+                   <li class="pie__redes-icono"><a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                   <li class="pie__redes-icono"><a href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
+               </ul>
+            </div>
+           <div class="pie__derechos">
+               <img src="./img/logo.png" alt="logo">
+               <p class="pie__derechos-der-autor">TODOS LOS DERECHOS RESERVADOS © 2024 HUELLITAS CLÍNICA VETERINARIA</p>
+               <div class="pie__derechos-legal">
+                   <span>INFORMACIÓN LEGAL</span><span>POLÍTICA DE PRIVACIDAD</span>
+               </div>
+               <p class="pie__derechos-diseno">Diseñado por <a href="#">Grupo5CaC2024</a></p>
+           </div>
+        </footer>
+        <!-- Fin Pie -->
+    </div>
+
+    <!-- Botones de Wast app y para subir al inicio -->
+    <div class="btn_final">
+        <!-- Botón de Wats App -->
+        <a href="./turnos-clientes.html" id="btn-watsapp" class="btn_final_pagina boton__watsApp"><i class="fa-brands fa-whatsapp"></i></a>
+        <!-- Botón UP de ir hacia arriba, al inicio -->
+        <a href="#" id="btn-up" class="btn_final_pagina boton__up"><i class="fa-solid fa-angle-up"></i></a>
+    </div>
+
+    <!-- Archivos Js -->
+    <script src="./js/Scroll-botones.js"></script>        
+</body>
+</html>
